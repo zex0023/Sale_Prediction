@@ -15,10 +15,8 @@ Only after knowing the consumers' willingness to buy a certain product can maxim
 In this case, predicting the amount of each product sale in the future can be useful, here we use the sales data of Russian shops to build the model.
 
 ## Concerns and possible questions:
-1. The dataset is time-series, but should we regard it as a pure time-series question?  We have to build a model for all product sales, however, some product sales amounts are seasonal(just like watermelon are best sellers during Summer) and some are not(maybe Xbox console?).
+1. why is Arima telling us the data is not fit, what kind of data is good to use Arima?
 
-2. There is a price column, we might not use it, but will it affect the final prediction?  The price increase and price drop can affect sales amount effectively.  So, do we need to predict the price of each product in November 2015 first and take it into account?  
+2. is LSTM really good to use?  What is the ground thoughts of LSTM?
 
-3. Shop details and item details are given, should we use them?  Are there any useful features in it?
-
-4. We will post more questions here if we find any.
+3. why is deep learning method more accurate?
